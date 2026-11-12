@@ -21,7 +21,7 @@ markdown = f"""**Absolute Clownery - Day {day}**
 - Live log: [[FFLogs]](https://www.fflogs.com/reports/{report}) [[Tomestone]](https://tomestone.gg/activity/report/{report})
 - Live stream: [[Twitch]](https://www.twitch.tv/{twitch})
 - VoD: [[YouTube]]({youtube})
-- Wipe analyzers: [[P1 Arrows]](https://analyzer.wtfdig.info/arrows?report={report}) [[P2 Forsaken]](https://analyzer.wtfdig.info/forsaken?report={report}) [[P3 Limitcut]](https://analyzer.wtfdig.info/kefka-lc?report={report}) [[P3 Black Hole]](https://analyzer.wtfdig.info/black-hole?report={report})"""
+- Wipe analyzers: [[P1 Arrows]](https://analyzer.wtfdig.info/arrows?report={report}) [[P2 Forsaken]](https://analyzer.wtfdig.info/forsaken?report={report}) [[P3 Limitcut]](https://analyzer.wtfdig.info/kefka-lc?report={report}) [[P3 Black Hole]](https://analyzer.wtfdig.info/black-hole?report={report}) [[P4 Kefka Says]](https://analyzer.wtfdig.info/kefka-says?report={report}) [[P5 Celestriad]](https://analyzer.wtfdig.info/celestriad?report={report})"""
 
 st.subheader("Generated Markdown")
 st.code(markdown, language="markdown")
